@@ -1,0 +1,12 @@
+Example for usage: VK.box('box', 'My box', 500, ['box.php', {foo: 'bar'}], [{style: 'gray', label: 'Close', onClick: function(){VK.box('box', false);}}], {callback: onBoxCreate, onHide: function(){alert('Good luck!');}})
+Manipulation with show/hide box: VK.box('box', true/false);
+
+Name: first argument, unique identificator for messagebox
+Title: name, of course
+Width: width of messagebox
+Content: string/array with arguments for load from url
+Buttons: array, including object with the parameters
+* Style: string, gray/blue
+* Label: string
+* onClick: function
+* Options: sixth argument, object
