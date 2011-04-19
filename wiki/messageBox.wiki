@@ -7,8 +7,8 @@ Width: width of messagebox<br>
 Content: string/array with arguments for load from url<br>
 Buttons: array, including object with the parameters<br>
 {{{
-* Style: string, gray/blue<br>
-* Label: string<br>
-* onClick: function<br>
-* Options: sixth argument, object
+Style: string, gray/blue
+Label: string
+onClick: function
+Options: sixth argument, object
 }}}
